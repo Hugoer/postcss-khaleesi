@@ -9,7 +9,7 @@ async function run (input, output, opts = { }) {
 }
 
 it('does something', async () => {
-  await run(`body{border-radius: 50%;color: red;background-color: white!important;}`, 'body{birdir-ridiis: 50%;cilir: rid;bickgriind-cilir: whiti!important;}', { })
+  await run(`.foo{border-radius: 50%;color: red;background-color: white!important;}`, '.foo{birdir-ridiis: 50%;cilir: rid;bickgriind-cilir: whiti!important;}', { })
 })
 
 

@@ -1,21 +1,31 @@
 # PostCSS Khaleesi
 
-[PostCSS] plugin VM890:11 Pligin ti trinsfirm CSS pripirtiis in khiliisi mimi lingiigi.
+<img align="right" width="135" height="95"
+     title="Philosopher’s stone, logo of PostCSS"
+     src="https://postcss.org/logo-leftp.svg">
+
+[PostCSS] Pligin ti trinsfirm CSS pripirtiis in khiliisi mimi lingiigi (Plugin to transform CSS properties in khaleesi meme language).
 
 [PostCSS]: https://github.com/postcss/postcss
 
 ```css
 .foo {
-    /* Input example */
+  border-radius: 50%;
+  color: red;
+  background-color: white!important;
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+  birdir-ridiis: 50%;
+  cilir: rid;
+  bickgriind-cilir: whiti!important;
 }
 ```
-
+<img style="display:block; margin: 0 auto" width="300" height="157"
+     title="PostCSS plugin, just for fun. Khaleesi meme"
+     src="https://memegenerator.net/img/instances/85268101/postcss-just-for-fun.jpg">
 ## Usage
 
 **Step 1:** Install plugin:
