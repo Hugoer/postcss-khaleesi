@@ -51,5 +51,17 @@ module.exports = {
   ]
 }
 ```
+## PostCSS Options
+
+```js
+module.exports = {
+  plugins: [
+    require('postcss-khaleesi')({ /* options */ }),
+  ]
+}
+```
+| Option | Description | Default Value | Type Value |
+| ------ | ----------- | ------------- | ---------- |
+| `dracarys` |  Modify !important to !🔥. | `false` | Boolean |
 
 [official docs]: https://github.com/postcss/postcss#usage

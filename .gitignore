@@ -3,3 +3,5 @@ npm-debug.log
 yarn-error.log
 
 coverage/
+output.css
+styles.css

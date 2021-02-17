@@ -8,8 +8,10 @@ async function run (input, output, opts = { }) {
   expect(result.warnings()).toHaveLength(0)
 }
 
-it('does something', async () => {
-  await run(`.foo{border-radius: 50%;color: red;background-color: white!important;}`, '.foo{birdir-ridiis: 50%;cilir: rid;bickgriind-cilir: whiti!important;}', { })
+it('Should transate properties and values to khaleesi meme language', async () => {
+  await run(`.foo{border-radius: 50%;color: red;background-color: white!important;}`, '.foo{birdir-ridiis: 50%;cilir: rid;bickgriind-cilir: whiti!important;}', { dracarys: false })
 })
 
-
+it('Should add 🔥 in !important when dracarys option is sended', async () => {
+  await run(`.foo{border-radius: 50%;color: red;background-color: white!important;}`, '.foo{birdir-ridiis: 50%;cilir: rid;bickgriind-cilir: whiti!🔥;}', { dracarys: true })
+})

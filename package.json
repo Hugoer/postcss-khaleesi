@@ -1,6 +1,6 @@
 {
   "name": "postcss-khaleesi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS pligin ti trinsfirm CSS pripirtiis in khiliisi mimi lingiigi",
   "keywords": [
     "postcss",
